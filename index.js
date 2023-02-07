@@ -14,3 +14,16 @@ let n = sum (6,6)
 
 let myName = "Ajara";
 console.log(myName.length); //сколько букв
+
+
+//цикл который считает от 5 до 25
+let number = 5;
+while (number <= 25){
+    console.log (number);
+    number++;
+}
+
+//отсчитать от 10 до -10 используя for
+for (let v = 10 ; v >= -10; v--){
+    console.log (v);
+}

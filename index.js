@@ -105,6 +105,12 @@ for (let i = 0; i < example4.length; i++){
 } 
 
 
+//выводим имена большими буквами
+for (let i = 0 ; i < example4.length; i++){
+    console.log(example4[i].toUpperCase());
+}
+
+
 
 
 

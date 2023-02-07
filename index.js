@@ -95,9 +95,17 @@ example4.forEach(function (name, i){//для каждого эл массива 
 }) ;
 
 //деструктивный метод цикла
-while(example4.length > 0){
-    console.log (example4.pop());//меняет массив
-}
+//while(example4.length > 0){
+  //  console.log (example4.pop());//меняет массив
+//}
+
+
+for (let i = 0; i < example4.length; i++){
+    console.log(example4[i].length); 
+} 
+
+
+
 
 
 

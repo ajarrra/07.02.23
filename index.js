@@ -142,6 +142,7 @@ let ainura = example10.shift();//вырез сначала
 console.log(example10);
 example10[1] = "Ajara";//изменяет эл
 console.log(example10);
+console.log(example10.length);//скок элементов
 
 
 

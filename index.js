@@ -38,7 +38,7 @@ let example2 = [3, 4 , 1 , 54 , 33]; //состоит из 5 эл и эти эл
 
 let example3 = ["Hello" , 55 , true, null]; //может содержать любые типы данных
 
-let example4 = ["Ajara" , " elya" , "Nestana"];
+let example4 = ["Ajara" , "elya" , "Nestana"];
 let example5 = ["Chui","Osh","Issyk-Kul","Talas","Batken","Jalal-Abad", ]
 
 console.log (example4);//что бы вывести массив
@@ -126,10 +126,6 @@ for (let i = 0; i < example7.length; i++){
   result1 = result1 + example7[i];
 }
 console.log(result1)
-
-
-
-
 
 
 

@@ -110,6 +110,26 @@ for (let i = 0 ; i < example4.length; i++){
     console.log(example4[i].toUpperCase());
 }
 
+let example6 = ["I", "love", "Karalol"];
+
+let result = "";
+for (let i = 0; i < example6.length; i++) {
+    result = result + example6[i] + " ";
+}
+console.log(result);
+
+
+//вывести сумму чисел 
+let example7 = [54, 11 , 44, 21 , 3 , 110];
+let result1 = 0;
+for (let i = 0; i < example7.length; i++){
+  result1 = result1 + example7[i];
+}
+console.log(result1)
+
+
+
+
 
 
 

@@ -143,6 +143,10 @@ console.log(example10);
 example10[1] = "Ajara";//изменяет эл
 console.log(example10);
 console.log(example10.length);//скок элементов
+console.log("my name is " + example10[1] );
 
+for( let i = 0;  i < example10.length; i++ ){
+    console.log ("hello my name is " + example10[0])
+}
 
 
